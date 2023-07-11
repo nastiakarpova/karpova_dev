@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #1B1410;
+    line-height: 1.75em;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;   
+    justify-content: center; 
+    margin-bottom: 24px;
+}
+
+.hero-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 64px;
+    margin: 100px auto;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 0 40%;
+    text-align: justify;
+    padding: 12px;
+    /* border: 2px solid yellow; */
+}
+
+img.image-right {
+    max-height: 700px;
+    align-self: center;
+    border-radius: 16px;
+    transform: rotate(5deg);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+img.image-right:hover {
+    transform: none;
+}
+
+p.line-1, 
+.line-1 span {
+    font-size: 24px;
+    color: #100b09;
+}
+
+.line-1 span {
+    color: #F58F98;
+}
+
+p.line-n {
+    margin: 12px 0;
+    font-stretch: extra-expanded;
+}
+
+h1 {
+    color: #100b09;
+    font-size: 48px;
+    line-height: 1.25em;
+}
+
+div.links {
+    display: flex;
+    gap: 24px;
+}
+
+button.button {
+    margin: 12px 0;
+    padding: 12px 16px;
+    font-weight: bold;
+    background-color: #1e2227;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px hsla(0, 0%,0%, 0.2);
+    cursor: pointer;
+}
+
+button.button a {
+    text-decoration: none;
+    color: #f8f8f8;
+    font-weight: lighter;
+}
+
+button.button:hover {
+    background-color: #272e35;
+}
+
+a.button, 
+button.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+}
+
+div.resume {
+    display: flex;
+    justify-content: center;
+    color: #363e49;
+    background-color: #fffce0;
+    padding: 6px;
+}
+
+a.resume {
+    padding: 0 0 0 6px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #1b1f25;
+} 
+
+a.resume:hover {
+    color: #595e61;
+}
+
+.social-img {
+    max-width: 24px;
+    padding: 0 6px;
+}
