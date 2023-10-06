@@ -15,8 +15,7 @@
 <body>
     <div class="wrapper">
 
-        <div class="hero-block">
-
+        <div class="wrapper-left">
             <div class="hero-text">
                 <h1>Hi, I'm</h1>
                 <p class="line-1">Nastia, a <span>Frontend Developer</span> based in Copenhagen.</p> 
@@ -31,20 +30,50 @@
                 becoming a wiser, more optimistic and empathetic colleague and a person.</p> 
 
                 <div class="links">
-                    <button class="button"><img src="img/github.png" alt="github" class="social-img">
-                        <a href="https://github.com/nastiakarpova" class="button" target="_blank">GitHub</a>
+                    <button class="btn"><img src="img/github.png" alt="github" class="social-img">
+                        <a href="https://github.com/nastiakarpova" class="btn" target="_blank">GitHub</a>
                     </button>
-                    <button class="button"><img src="img/linkedin.png" alt="linkedin" class="social-img">
-                        <a href="https://www.linkedin.com/in/nastiakarpova/" class="button" target="_blank">LinkedIn</a>
+
+                    <button class="btn"><img src="img/linkedin.png" alt="linkedin" class="social-img">
+                        <a href="https://www.linkedin.com/in/nastiakarpova/" class="btn" target="_blank">LinkedIn</a>
                     </button>
+                    
+                    <div class="resume">Download my CV in <a href="assets/karpova_cv.pdf" class="resume" target="_blank">PDF</a>.</div>
                 </div>
             </div>
-
-            <img src="img/nastia33.jpg" alt="hero image" class="image-right">
         </div>
+
+        <div class="wrapper-right">
+            <img src="img/nastia33.jpg" alt="hero image" class="image-right">
+                    
+            <div class="wrapper-blog">
+                <h3>Dev Blog</h3>
+                <a href="/blog/public/posts/virtual-scroll/index.html" class="card-link">
+                    <div class="card">
+                        <h6>Virtual scroll with functional JavaScript
+                        </h6>
+                        <p>A detailed step-by-step guide on how to build a virtual scroll 
+                            using pure JavaScript and a functional library, Ramda.
+                        </p>
+                    </div>
+                </a>
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <h6>Carouseling divs 
+                            <span style="font-size: 12px; color: gray">(work in progress)</span>
+                        </h6>
+                        <p>In this blog post, we'll explore the process of creating 
+                            a dynamic and interactive web interface component - a carousel - 
+                            using the power of JavaScript and CSS.
+                        </p>
+                    </div>
+                </a>                
+            </div>
+        </div>
+        
     </div>
-    <div class="wrapper">
+    <!-- <div class="wrapper">
         <div class="resume">Download my CV in <a href="assets/karpova_cv.pdf" class="resume" target="_blank">PDF</a>.</div>
-    </div>
+    </div> -->
 </body>
 </html>

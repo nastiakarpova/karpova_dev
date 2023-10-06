@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link rel="stylesheet" href="/styles.css">
+
+</head>
+<body>
+  <header>
+    <h1>Blogfolio</h1>
+    <!-- {{ partial "header.html" . }} -->
+  </header>
+  <main>
+    <div id="wrapper">
+      
+    {{ block "main" . }}{{ end }}
+    </div>
+  </main>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+</body>
+</html>

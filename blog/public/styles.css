@@ -1,0 +1,57 @@
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    color: #100b09;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    color: #100b09;
+}
+
+p {
+    font-size: 16px;
+    margin: 1em 0 1.5em;
+    font-family: "Inter";
+    color: #100b09;
+    /* font-family: "Roboto"; */
+}
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    /* align-items: center; */
+    /* background-color: antiquewhite; */
+}
+
+.card {
+    height: auto;
+    width: 450px;
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.card:hover {
+    /* background-color: rgb(246, 246, 246); */
+    background-color: whitesmoke;
+}
+
+div.card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a {
+    color: #F58F98;
+}

@@ -1,0 +1,17 @@
+{{ define "main" }}
+  {{ .Content }}
+  {{ range site.RegularPages }}
+
+  <head>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <div id="wrapper">
+    <a class="card" href="{{ .RelPermalink }}">
+      <div>
+        <h4>{{ .LinkTitle }}</h4>
+        <p>{{ .Summary }}</p>
+      </div>
+    </a>
+  </div>
+  {{ end }}
+{{ end }}

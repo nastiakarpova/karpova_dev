@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://karpova.dev/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Sep 2023 15:28:07 +0200</lastBuildDate><atom:link href="https://karpova.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Virtual scroll with functional JavaScript</title>
+      <link>https://karpova.dev/posts/virtual-scroll/</link>
+      <pubDate>Tue, 26 Sep 2023 15:28:07 +0200</pubDate>
+      
+      <guid>https://karpova.dev/posts/virtual-scroll/</guid>
+      <description>A detailed step-by-step guide on how to build a virtual scroll using JavaScript and a functional library, Ramda.</description>
+    </item>
+    
+  </channel>
+</rss>
