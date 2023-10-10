@@ -7,7 +7,7 @@
     line-height: 1.75em;
 }
 
-p {
+p.p-card{
     margin: 1em 0 1em;
 }
 
@@ -83,7 +83,8 @@ p.line-1,
 .line-1 span {
     font-size: 24px;
     color: #100b09;
-    margin-bottom: 18px;
+    /* margin-bottom: 18px; */
+
 }
 
 .line-1 span {
@@ -91,14 +92,14 @@ p.line-1,
 }
 
 p.line-n {
-    margin: 16px 0;
+    margin: 0;
     font-stretch: extra-expanded;
 }
 
 h1 {
     color: #100b09;
     font-size: 48px;
-    line-height: 1.15em;
+    line-height: 1em;
     margin: 0;
 }
 
